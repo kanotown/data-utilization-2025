@@ -1,8 +1,19 @@
 # Site information
-site_name: データ活用法 documentation
+site_name: データ活用法 Docs
 site_description: 'Project du2025 documentation'
 site_author: 'Toru Kano'
 site_url: 'https://code.kano-lab.com/du2025/'
+
+# Navigation
+nav:
+  - Home:
+    - 本サイトについて: index.md
+  - データ活用法:
+    - du2025/index.md
+    - 1. ガイダンス: du2025/1.md
+    - 2. データ可視化 (1): du2025/2.md
+  - Python 入門:
+    - python/index.md
 
 # Theme configuration
 theme:
@@ -10,17 +21,17 @@ theme:
   palette:
     # Light mode
     - scheme: default  
-      primary: blue
-      accent: blue
+      primary: brown
+      accent: brown
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
-      primary: blue  
+      primary: black  
       accent: blue
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   font:
     text: Roboto
@@ -33,20 +44,25 @@ theme:
     - search.share
     - content.code.annotation
     - content.code.copy
+    - navigation.footer
 
-# Markdown extensions  
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - javascripts/external-links.js
+
 markdown_extensions:
-  - admonition
-  - codehilite
-  - toc:
-      permalink: true
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
+  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
 
 # Plugins
 plugins:
@@ -59,10 +75,7 @@ plugins:
   - minify:
       minify_html: true
 
-# Navigation
-nav:
-  - Home: index.md
-  - About: about.md
-
 # Copyright
-copyright: Copyright &copy; 2025 kano. All rights reserved.
+copyright: 　&copy; 2025 データ活用法 Docs
+extra:
+  generator: false
