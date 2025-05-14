@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# MkDocs
+site/
+
+# OS
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+
+# IDEs
+.idea/
+*.sublime-*
