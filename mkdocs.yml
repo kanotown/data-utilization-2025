@@ -1,22 +1,22 @@
 # Site information
 site_name: データ活用法 Docs
-site_description: 'Project du2025 documentation'
-site_author: 'Toru Kano'
-site_url: 'https://code.kano-lab.com/du2025/'
+site_description: "Project du2025 documentation"
+site_author: "Toru Kano"
+site_url: "https://code.kano-lab.com/du2025/"
 
 # Navigation
 nav:
   - Home:
-    - 本サイトについて: index.md
+      - 本サイトについて: index.md
   - データ活用法:
-    - du2025/index.md
-    - 1. ガイダンス: du2025/1.md
-    - 2. データ可視化 (1): du2025/2.md
-    - 3. データ可視化 (2): du2025/3.md
-    - 4. データ操作の基礎: du2025/4.md
-    - 5. データの前処理: du2025/5.md
+      - du2025/index.md
+      - 1. ガイダンス: du2025/1.md
+      - 2. データ可視化 (1): du2025/2.md
+      - 3. データ可視化 (2): du2025/3.md
+      - 4. データ操作の基礎: du2025/4.md
+      - 5. データの前処理: du2025/5.md
   - Python 入門:
-    - python/index.md
+      - python/index.md
 
 # Theme configuration
 theme:
@@ -25,7 +25,7 @@ theme:
   favicon: img/chipmunk.png
   palette:
     # Light mode
-    - scheme: default  
+    - scheme: default
       primary: brown
       accent: brown
       toggle:
@@ -33,7 +33,7 @@ theme:
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
-      primary: black  
+      primary: black
       accent: blue
       toggle:
         icon: material/weather-sunny
@@ -92,7 +92,7 @@ plugins:
       timezone: Asia/Tokyo
       fallback_to_build_date: true
   - git-committers:
-      repository: kanotown/docs
+      repository: kanotown/data-utilization-2025
       branch: main
   - minify:
       minify_html: true
