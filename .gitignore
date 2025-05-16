@@ -1,3 +1,11 @@
+# MkDocs build output
+site/
+
+# Plugin caches
+.cache/
+.cache/plugin/git-committers/
+.cache/mkdocs/
+
 # Python
 __pycache__/
 *.py[cod]
