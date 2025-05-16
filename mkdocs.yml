@@ -63,6 +63,8 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
 
 extra_css:
   - css/extra.css
@@ -94,6 +96,7 @@ plugins:
   - git-committers:
       repository: kanotown/data-utilization-2025
       branch: main
+      enabled: !ENV [CI, false]
   - minify:
       minify_html: true
 
