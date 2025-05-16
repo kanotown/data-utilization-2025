@@ -1,8 +1,10 @@
 # Site information
 site_name: データ活用法 Docs
-site_description: "Project du2025 documentation"
+site_description: "Project Data Utilization 2025 documentation"
+
 site_author: "Toru Kano"
-site_url: "https://code.kano-lab.com/du2025/"
+site_url: "https://du2025.ibadai.com/"
+repo_url: https://github.com/kanotown/data-utilization-2025
 
 # Navigation
 nav:
@@ -89,8 +91,9 @@ markdown_extensions:
 plugins:
   - search
   - git-revision-date-localized:
+      enable_creation_date: true
       enabled: true
-      type: datetime
+      type: timeago
       timezone: Asia/Tokyo
       fallback_to_build_date: true
   - git-committers:
@@ -100,7 +103,8 @@ plugins:
   - minify:
       minify_html: true
 
-# Copyright
-copyright: 　&copy; 2025 データ活用法 Docs
 extra:
   generator: false
+
+# Copyright
+copyright: 　&copy; 2025 データ活用法 Docs
