@@ -21,6 +21,8 @@ nav:
 # Theme configuration
 theme:
   name: material
+  logo: img/chipmunk.png
+  favicon: img/chipmunk.png
   palette:
     # Light mode
     - scheme: default  
@@ -37,17 +39,30 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    # text: Roboto
+    # code: Roboto Mono
+    text: Noto Sans Japanese
   features:
+    # - navigation.tabs
+    # - navigation.sections
+    # - navigation.top
+    # - search.highlight
+    # - search.share
+    # - content.code.annotation
+    # - content.code.copy
+    # - navigation.footer
+    - navigation.tracking
     - navigation.tabs
+    - navigation.indexes
+    - navigation.expand
     - navigation.sections
+    - navigation.path
     - navigation.top
+    - navigation.footer
+    - search.suggest
     - search.highlight
     - search.share
-    - content.code.annotation
     - content.code.copy
-    - navigation.footer
 
 extra_css:
   - css/extra.css
@@ -66,6 +81,7 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - admonition
 
 # Plugins
 plugins:
@@ -75,7 +91,9 @@ plugins:
       type: datetime
       timezone: Asia/Tokyo
       fallback_to_build_date: true
-  - git-authors
+  - git-committers:
+      repository: kanotown/docs
+      branch: main
   - minify:
       minify_html: true
 
