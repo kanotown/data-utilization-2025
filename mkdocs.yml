@@ -12,6 +12,9 @@ nav:
     - du2025/index.md
     - 1. ガイダンス: du2025/1.md
     - 2. データ可視化 (1): du2025/2.md
+    - 3. データ可視化 (2): du2025/3.md
+    - 4. データ操作の基礎: du2025/4.md
+    - 5. データの前処理: du2025/5.md
   - Python 入門:
     - python/index.md
 
@@ -50,7 +53,7 @@ extra_css:
   - css/extra.css
 
 extra_javascript:
-  - javascripts/external-links.js
+  - js/external-links.js
 
 markdown_extensions:
   - attr_list
@@ -72,6 +75,7 @@ plugins:
       type: datetime
       timezone: Asia/Tokyo
       fallback_to_build_date: true
+  - git-authors
   - minify:
       minify_html: true
 
