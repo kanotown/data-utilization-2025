@@ -27,7 +27,7 @@ jobs:
         run: mkdocs build
 
       - name: Create CNAME file
-        run: echo "docs.kano-lab.com" > ./site/CNAME
+        run: echo "du2025.ibadai.com" > ./site/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
