@@ -1,10 +1,10 @@
-# 10. SeabornとMatplotlibの連携
+# 10. Seaborn と Matplotlib の連携
 
-SeabornはMatplotlibのラッパーライブラリとして知られており、データの可視化を簡略化するのに役立ちます。SeabornとMatplotlibを連携させることで、よりカスタマイズされたグラフを作成できます。本節では、SeabornとMatplotlibを組み合わせて効果的なデータビジュアライゼーションを行う方法を学びます。
+Seaborn は Matplotlib のラッパーライブラリとして知られており、データの可視化を簡略化するのに役立ちます。Seaborn と Matplotlib を連携させることで、よりカスタマイズされたグラフを作成できます。本節では、Seaborn と Matplotlib を組み合わせて効果的なデータビジュアライゼーションを行う方法を学びます。
 
-## 10.1 SeabornとMatplotlibの基礎
+## 10.1 Seaborn と Matplotlib の基礎
 
-SeabornとMatplotlibはそれぞれ独立して動作しますが、SeabornのグラフをMatplotlibでさらに調整することが可能です。まずは両方のライブラリをインポートし、基本的な使用法を示します。
+Seaborn と Matplotlib はそれぞれ独立して動作しますが、Seaborn のグラフを Matplotlib でさらに調整することが可能です。まずは両方のライブラリをインポートし、基本的な使用法を示します。
 
 ### 10.1.1 ライブラリのインポート
 
@@ -15,7 +15,7 @@ import seaborn as sns
 
 ### 10.1.2 基本的な使い方
 
-Seabornで作成したグラフをMatplotlibの機能でカスタマイズする基本的な例です。
+Seaborn で作成したグラフを Matplotlib の機能でカスタマイズする基本的な例です。
 
 ```python
 # サンプルデータの読み込み
@@ -34,11 +34,11 @@ plt.show()
 
 ## 10.2 グラフのカスタマイズ
 
-Matplotlibの強力なカスタマイズ機能を用いてSeabornのプロットに付加価値を与えることができます。
+Matplotlib の強力なカスタマイズ機能を用いて Seaborn のプロットに付加価値を与えることができます。
 
 ### 10.2.1 色のカスタマイズ
 
-MatplotlibではSeabornのプロットに対して色をカスタマイズできます。
+Matplotlib では Seaborn のプロットに対して色をカスタマイズできます。
 
 ```python
 # 色のカスタマイズ
@@ -52,7 +52,7 @@ plt.show()
 
 ### 10.2.2 グリッド線の調整
 
-Seabornのグリッドスタイルを調整する例を示します。
+Seaborn のグリッドスタイルを調整する例を示します。
 
 ```python
 # グリッド線の調整
@@ -67,11 +67,11 @@ plt.show()
 
 ## 10.3 複合プロットの作成
 
-SeabornとMatplotlibを組み合わせて複合的なプロットを作成する例です。
+Seaborn と Matplotlib を組み合わせて複合的なプロットを作成する例です。
 
-### 10.3.1 FacetGridとMatplotlib
+### 10.3.1 FacetGrid と Matplotlib
 
-Seabornの`FacetGrid`を使い、Matplotlibで調整を行う例です。
+Seaborn の`FacetGrid`を使い、Matplotlib で調整を行う例です。
 
 ```python
 # FacetGridの作成
@@ -84,4 +84,4 @@ g.fig.suptitle('Total Bill Distribution by Sex')
 plt.show()
 ```
 
-このようにSeabornとMatplotlibを連携させることで、視覚的に訴求力のあるグラフを作成できます。自分自身で様々なカスタマイズを試してみてください。
+このように Seaborn と Matplotlib を連携させることで、視覚的に訴求力のあるグラフを作成できます。自分自身で様々なカスタマイズを試してみてください。

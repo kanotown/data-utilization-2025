@@ -1,14 +1,19 @@
-# Welcome to MkDocs
+# データ活用法
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+本サイトは「データ活用法」の講義資料置場です。
 
-## Commands
+## 講義スケジュール
 
-- `mkdocs new [dir-name]` - Create a new project.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- 第 1 回 (4/15)　[ガイダンス、データ活用事例の紹介、Python 環境の準備](./du2025/1.md)
+- 第 2 回 (4/22)　[データ可視化 (1)](./du2025/2.md)
+- 第 3 回 (5/08)　[データ可視化 (2)](./du2025/3.md)
+- 第 4 回 (5/13)　[データ操作の基礎](./du2025/4.md)
+- 第 5 回 (5/20)　[データの前処理](./du2025/5.md)
+- 第 6 回 (5/27)　基本的な統計分析
+- 第 7 回 (6/03)　時系列データ分析
+- 第 8 回 (6/10)　テキストデータ処理 (1)
+- 第 9 回 (6/17)　テキストデータ処理 (2)
+- 第 10 回 (6/24)　画像処理 (1)
+- 第 11 回 (7/01)　画像処理 (2)
+- 第 12 回 (7/08)　 SQL の基礎 (1)
+- 第 13 回 (7/15)　 SQL の基礎 (2)、まとめ
