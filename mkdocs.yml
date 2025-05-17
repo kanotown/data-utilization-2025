@@ -17,8 +17,81 @@ nav:
       - 3. データ可視化 (2): du2025/3.md
       - 4. データ操作の基礎: du2025/4.md
       - 5. データの前処理: du2025/5.md
-  - Python 入門:
-      - python/index.md
+  - Python 基礎:
+      - python-basic/index.md
+      - 1. Python の特徴と基本構造: python-basic/1.md
+      - 2. 変数とデータ型: python-basic/2.md
+      - 3. 演算子: python-basic/3.md
+      - 4. リスト・タプル・辞書・集合: python-basic/4.md
+      - 5. 条件分岐: python-basic/5.md
+      - 6. 繰り返し処理: python-basic/6.md
+      - 7. 関数: python-basic/7.md
+      - 8. モジュールと標準ライブラリ: python-basic/8.md
+      - 9. 例外処理: python-basic/9.md
+      - 10. ファイルの入出力: python-basic/10.md
+  - NumPy:
+      - python-advanced/numpy/index.md
+      - 1. NumPy の概要: python-advanced/numpy/page1.md
+      - 2. NumPy の配列: python-advanced/numpy/page2.md
+      - 3. NumPy の配列の演算: python-advanced/numpy/page3.md
+      - 4. NumPy の配列のインデックス: python-advanced/numpy/page4.md
+      - 5. NumPy の配列のスライス: python-advanced/numpy/page5.md
+      - 6. NumPy の配列の形状: python-advanced/numpy/page6.md
+      - 7. NumPy の配列の結合: python-advanced/numpy/page7.md
+      - 8. NumPy の配列の分割: python-advanced/numpy/page8.md
+      - 9. NumPy の配列のコピー: python-advanced/numpy/page9.md
+      - 10. NumPy の配列の演算: python-advanced/numpy/page10.md
+      - 11. NumPy の配列のブロードキャスト: python-advanced/numpy/page11.md
+      - 12. NumPy の配列の演算: python-advanced/numpy/page12.md
+      - 13. NumPy の配列の演算: python-advanced/numpy/page13.md
+  - pandas:
+      - python-advanced/pandas/index.md
+      - 1. pandas の概要: python-advanced/pandas/page1.md
+      - 2. pandas のデータ構造: python-advanced/pandas/page2.md
+      - 3. pandas のデータの選択: python-advanced/pandas/page3.md
+      - 4. pandas のデータのフィルタリング: python-advanced/pandas/page4.md
+      - 5. pandas のデータのグループ化: python-advanced/pandas/page5.md
+      - 6. pandas のデータの結合: python-advanced/pandas/page6.md
+      - 7. pandas のデータの結合: python-advanced/pandas/page7.md
+      - 8. pandas のデータの結合: python-advanced/pandas/page8.md
+      - 9. pandas のデータの結合: python-advanced/pandas/page9.md
+      - 10. pandas のデータの結合: python-advanced/pandas/page10.md
+  - Matplotlib:
+      - python-advanced/matplotlib/index.md
+      - 1. Matplotlib の概要: python-advanced/matplotlib/page1.md
+      - 2. Matplotlib のグラフの描画: python-advanced/matplotlib/page2.md
+      - 3. Matplotlib のグラフのカスタマイズ: python-advanced/matplotlib/page3.md
+      - 4. Matplotlib のグラフの保存: python-advanced/matplotlib/page4.md
+      - 5. Matplotlib のグラフのアニメーション: python-advanced/matplotlib/page5.md
+      - 6. Matplotlib のグラフのアニメーション: python-advanced/matplotlib/page6.md
+      - 7. Matplotlib のグラフのアニメーション: python-advanced/matplotlib/page7.md
+      - 8. Matplotlib のグラフのアニメーション: python-advanced/matplotlib/page8.md
+      - 9. Matplotlib のグラフのアニメーション: python-advanced/matplotlib/page9.md
+  - Seaborn:
+      - python-advanced/seaborn/index.md
+      - 1. Seaborn の概要: python-advanced/seaborn/page1.md
+      - 2. Seaborn のグラフの描画: python-advanced/seaborn/page2.md
+      - 3. Seaborn のグラフのカスタマイズ: python-advanced/seaborn/page3.md
+      - 4. Seaborn のグラフの保存: python-advanced/seaborn/page4.md
+      - 5. Seaborn のグラフのアニメーション: python-advanced/seaborn/page5.md
+      - 6. Seaborn のグラフのアニメーション: python-advanced/seaborn/page6.md
+      - 7. Seaborn のグラフのアニメーション: python-advanced/seaborn/page7.md
+      - 8. Seaborn のグラフのアニメーション: python-advanced/seaborn/page8.md
+      - 9. Seaborn のグラフのアニメーション: python-advanced/seaborn/page9.md
+      - 10. Seaborn のグラフのアニメーション: python-advanced/seaborn/page10.md
+      - 11. Seaborn のグラフのアニメーション: python-advanced/seaborn/page11.md
+  - Plotly:
+      - python-advanced/plotly/index.md
+      - 1. Plotly の概要: python-advanced/plotly/page1.md
+      - 2. Plotly のグラフの描画: python-advanced/plotly/page2.md
+      - 3. Plotly のグラフのカスタマイズ: python-advanced/plotly/page3.md
+      - 4. Plotly のグラフの保存: python-advanced/plotly/page4.md
+      - 5. Plotly のグラフのアニメーション: python-advanced/plotly/page5.md
+      - 6. Plotly のグラフのアニメーション: python-advanced/plotly/page6.md
+      - 7. Plotly のグラフのアニメーション: python-advanced/plotly/page7.md
+      - 8. Plotly のグラフのアニメーション: python-advanced/plotly/page8.md
+      - 9. Plotly のグラフのアニメーション: python-advanced/plotly/page9.md
+      - 10. Plotly のグラフのアニメーション: python-advanced/plotly/page10.md
 
 # Theme configuration
 theme:
