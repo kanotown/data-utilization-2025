@@ -1,3 +1,18 @@
+/* 見出しはM PLUS 2 */
+/* .md-typeset h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+}
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "M PLUS 2", sans-serif;
+  font-weight: 500;
+} */
+
+.md-typeset {
+  /* font-size: 0.75rem !important; */
+}
+
 .md-source-file {
   margin-top: 2.5em;
 }

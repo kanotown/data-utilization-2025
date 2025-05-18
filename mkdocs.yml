@@ -112,18 +112,10 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    # text: Roboto
-    # code: Roboto Mono
-    text: Noto Sans Japanese
+    text: Roboto
+    code: Roboto Mono
+    # text: Noto Sans JP
   features:
-    # - navigation.tabs
-    # - navigation.sections
-    # - navigation.top
-    # - search.highlight
-    # - search.share
-    # - content.code.annotation
-    # - content.code.copy
-    # - navigation.footer
     - navigation.tracking
     - navigation.tabs
     - navigation.indexes
