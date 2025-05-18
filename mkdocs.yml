@@ -13,8 +13,8 @@ nav:
       - 1. ガイダンス: du2025/1.md
       - 2. データ可視化 (1): du2025/2.md
       - 3. データ可視化 (2): du2025/3.md
-      - 4. データ操作の基礎: du2025/4.md
-      - 5. データの前処理: du2025/5.md
+      - 4. データ操作の基礎 - NumPy: du2025/4.md
+      - 5. データ操作の基礎 - pandas: du2025/5.md
   - Python Basic:
       - python-basic/index.md
       - 1. Python の特徴と基本構造: python-basic/1.md
@@ -147,6 +147,8 @@ extra_javascript:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -161,6 +163,7 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
+  - glightbox
   - git-revision-date-localized:
       enable_creation_date: true
       enabled: true
