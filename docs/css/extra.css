@@ -9,6 +9,15 @@
   font-weight: 500;
 } */
 
+[data-md-color-scheme="slate"] .md-typeset__table tr:nth-child(2n) {
+  background-color: hsla(var(--md-hue), 25%, 25%, 1);
+}
+
+/* サーチボタンの右側に余白を追加 */
+.md-header__button.md-icon[for="__search"] {
+  margin-right: 5em;
+}
+
 .md-typeset {
   /* font-size: 0.75rem !important; */
 }

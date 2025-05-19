@@ -90,6 +90,8 @@ nav:
       - 8. さまざまなグラフタイプ: python-advanced/plotly/page8.md
       - 9. グラフの保存と共有: python-advanced/plotly/page9.md
       - 10. よくあるエラーとその対処法: python-advanced/plotly/page10.md
+  - 🏠️ HOME: https://ds.ibadai.com/
+  - 🐿️ CHIKUWA: https://ds.ibadai.com/editor/
 
 # Theme configuration
 theme:
@@ -155,7 +157,9 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - glightbox
+  - glightbox:
+      skip_classes:
+        - skip-glightbox
   - git-revision-date-localized:
       enable_creation_date: true
       enabled: true
