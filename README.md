@@ -19,8 +19,9 @@ This repository contains course materials for "Data Utilization Techniques" at S
 
 ## 更新履歴
 
-- 2025 年 5 月 25 日: 第 6 回 講義資料（予習用） 公開
-- 2025 年 5 月 18 日: 講義資料（MkDocs 版）初版公開
+- 2025/05/27: 第 6 回 講義資料 公開
+- 2025/05/25: 第 6 回 講義資料（予習用） 公開
+- 2025/05/18: 講義資料（MkDocs 版）初版公開
 
 ## ライセンス
 
