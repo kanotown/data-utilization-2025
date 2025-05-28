@@ -17,6 +17,7 @@ build/
 
 # Virtual Environment
 venv/
+venvHome/
 env/
 ENV/
 
