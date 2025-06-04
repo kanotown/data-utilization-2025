@@ -19,6 +19,9 @@ This repository contains course materials for "Data Utilization Techniques" at S
 
 ## 更新履歴
 
+- 2025/06/04: Python Introduction ページを分離
+- 2025/06/03: 第 7 回 講義資料 公開
+- 2025/05/31: 第 7 回 講義資料（予習用） 公開
 - 2025/05/27: 第 6 回 講義資料 公開
 - 2025/05/25: 第 6 回 講義資料（予習用） 公開
 - 2025/05/18: 講義資料（MkDocs 版）初版公開
