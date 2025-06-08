@@ -17,6 +17,7 @@ nav:
       - 5. データ操作の基礎 - pandas: du2025/5.md
       - 6. データの前処理: du2025/6.md
       - 7. 時系列データ分析: du2025/7.md
+      - 8. テキストデータ処理 (1): du2025/8.md
   - '<img src="../../img/logo_penguin_clear.png" height="17" style="margin-right:0.5em">Python': https://python.ibadai.com/
   - 🏠️ HOME: https://ds.ibadai.com/
   - 🐿️ CHIKUWA: https://ds.ibadai.com/editor/
