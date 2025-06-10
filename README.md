@@ -19,6 +19,8 @@ This repository contains course materials for "Data Utilization Techniques" at S
 
 ## 更新履歴
 
+- 2025/06/11: 見出しの横にアンカーリンクを追加
+- 2025/06/10: 第 8 回 講義資料 公開
 - 2025/06/08: 第 8 回 講義資料（予習用） 公開
 - 2025/06/04: Python Introduction ページを分離
 - 2025/06/03: 第 7 回 講義資料 公開

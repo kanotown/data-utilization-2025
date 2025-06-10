@@ -83,8 +83,14 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
+      title: 目次
+      permalink_title: アンカーリンク
+      slugify:
+        !!python/name:slugify_custom.keep_dots_slugify # $env:PYTHONPATH = "$PWD;$env:PYTHONPATH"
 
-# Plugins
+
 plugins:
   - search
   - glightbox:
