@@ -87,9 +87,11 @@ markdown_extensions:
       permalink: true
       title: 目次
       permalink_title: アンカーリンク
-      slugify:
-        !!python/name:slugify_custom.keep_dots_slugify # $env:PYTHONPATH = "$PWD;$env:PYTHONPATH"
-
+      slugify: !!python/object/apply:builtins.eval
+        args:
+          - |
+            lambda text, sep: __import__('re').sub(r'[^\w\.\-_]+', sep, text.lower()).strip(sep)
+          # $env:PYTHONPATH = "$PWD;$env:PYTHONPATH"
 
 plugins:
   - search
